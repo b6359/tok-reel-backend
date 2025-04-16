@@ -3,7 +3,6 @@ const API = require("../helper/API_Response");
 const db_helper = require("../helper/db_helper");
 const helper = require("../helper/helper");
 exports.getVideos = async (req, res) => {
-  // const data = await helper.decryptRequest(req.body.data);
   const { page = 1, limit = 1, style_id } = req.body;
   const whereCondition = {};
   if (style_id) {

@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 
 require("./app/routes/videos.routes")(app);
 
-const PORT = 8000;
+const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

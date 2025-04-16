@@ -14,7 +14,7 @@ module.exports = (sequelize, Sequelize) => {
     author_name: {
       type: Sequelize.STRING,
     },
-    description: {
+    caption: {
       type: Sequelize.STRING,
     },
     hashtag: {
